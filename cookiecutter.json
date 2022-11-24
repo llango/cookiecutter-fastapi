@@ -1,0 +1,17 @@
+{
+    "project_name": "项目名称",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "项目简单描述",
+    "machine_learn_model_path": "./ml/model/",
+    "machine_learn_model_name": "model.pkl",
+    "full_name": "你的用户名",
+    "email": "你的邮箱地址(you@example.com)",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "_extensions": [
+        "jinja2_time.TimeExtension"
+    ],
+    "_copy_without_render": [
+        "*ci.yaml"
+    ]
+}
