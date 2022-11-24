@@ -4,10 +4,11 @@
     "project_short_description": "项目简单描述",
     "machine_learn_model_path": "./ml/model/",
     "machine_learn_model_name": "model.pkl",
-    "full_name": "你的用户名",
+    "full_name": "你想呈现的名字",
     "email": "你的邮箱地址(you@example.com)",
     "release_date": "{% now 'local' %}",
     "version": "0.1.0",
+    "github_username": "llango",
     "_extensions": [
         "jinja2_time.TimeExtension"
     ],
